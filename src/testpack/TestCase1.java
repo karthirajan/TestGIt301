@@ -23,4 +23,9 @@ public class TestCase1 {
 		System.out.println(a + b + c);
 	}
 
+	
+	public static void add(float a, float b) {
+		System.out.println(a + b);
+	}
+
 }
