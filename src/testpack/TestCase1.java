@@ -18,4 +18,9 @@ public class TestCase1 {
 	public static void add(String a, String b) {
 		System.out.println(a + b);
 	}
+
+	public static void add(float a, String b, String c) {
+		System.out.println(a + b + c);
+	}
+
 }
