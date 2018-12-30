@@ -109,5 +109,14 @@ public static void arraysorting_siva() {
     }
     
 }
+public void arraySortBySiva() {
+	
+	int a[]= {20,10,12,35,25};
+	Arrays.sort(a);
+	for (int i = 0; i < a.length; i++) {
+		System.out.println(a[i]);
+	}
+	
+}
 
 }
