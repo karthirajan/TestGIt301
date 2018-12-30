@@ -16,6 +16,7 @@ public class BaseClass {
 		Nithya_ArrayAsc();
 		ArraySortBasha();
 		arraysortbysehkar();
+		arraySortGobi();
 
 	}
 
@@ -180,6 +181,26 @@ public void arraySortBySiva() {
 
 	}
 
+	public static void arraySortGobi()
+	{
+		int size;
+		Scanner s = new Scanner(System.in);
+	     System.out.println("Enter the size of Array");
+	     size=s.nextInt();  
+		int a[]= new int [size];
+		for(int i=0;i<size;i++)
+		{
+			a[i]=s.nextInt();
+		
+	     }
+		Arrays.sort(a);
+		for(int j : a) {
+	        System.out.print(j+" ");
+		
+	}
+
+	}
+	
 	}
   
     
