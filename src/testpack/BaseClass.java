@@ -49,4 +49,13 @@ public class BaseClass {
 		
 					
 				}
+	public void arraySortbySiva() {
+	
+		int a[]= {10,15,12,11,23};
+		Arrays.sort(a);
+		for(int i=0;i<a.length;i++) {
+			System.out.println(a[i]);
+		}
+	}
+	
 }
