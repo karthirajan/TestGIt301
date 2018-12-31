@@ -12,11 +12,11 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		baseClass();
 
-		arraysorting_siva();
+		/*arraysorting_siva();
 		Nithya_ArrayAsc();
 		ArraySortBasha();
 		arraysortbysehkar();
-		arraySortGobi();
+		arraySortGobi();*/
 		sortArray_Abi();
 
 	}
