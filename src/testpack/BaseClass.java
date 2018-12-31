@@ -17,6 +17,7 @@ public class BaseClass {
 		ArraySortBasha();
 		arraysortbysehkar();
 		arraySortGobi();
+		sortArray_Abi();
 
 	}
 
@@ -199,6 +200,33 @@ public void arraySortBySiva() {
 		
 	}
 
+	}
+	
+	public static void sortArray_Abi()
+	{
+		int a[] = {10,90,40,20,50,30},temp;
+		System.out.println("Before Sorting:");
+		for(int x:a)
+		{
+			System.out.println(x);
+		}
+		for(int i=0;i<a.length;i++)
+		{
+			for(int j=i;j<a.length;j++)
+			{
+				if(a[i]>a[j])
+				{
+					temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+				}
+			}
+		}
+		System.out.println("After Sorting:");
+		for(int x:a)
+		{
+			System.out.println(x);
+		}
 	}
 	
 	}
