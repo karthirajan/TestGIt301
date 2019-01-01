@@ -18,6 +18,7 @@ public class BaseClass {
 		arraysortbysehkar();
 		arraySortGobi();
 		sortArray_Abi();
+		ArraySort_Seetha();
 
 	}
 
