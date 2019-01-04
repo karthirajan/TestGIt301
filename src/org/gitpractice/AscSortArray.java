@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AscSortArray {
-	public void ascSort() {
+	public void ascSort_Archana() {
 		int n, temp;
 		Scanner s = new Scanner(System.in);
 		System.out.print("Enter no.of elements in your array: ");
@@ -34,7 +34,7 @@ public class AscSortArray {
 
 	public static void main(String[] args) {
 		AscSortArray ob = new AscSortArray();
-		ob.ascSort();
+		ob.ascSort_Archana();
 	}
 
 }
