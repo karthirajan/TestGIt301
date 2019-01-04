@@ -19,6 +19,8 @@ public class BaseClass {
 		sortArray_Abi();
 		ArraySort_Seetha();
 		ascArraySortByRamya();
+		ascSort_Archana();
+		
 	}
 
 	public static void baseClass() {
@@ -244,5 +246,31 @@ public class BaseClass {
 			System.out.println(a[i] + ",");
 
 		}
+	}
+	
+	public static void ascSort_Archana() {
+		int n, temp;
+		Scanner s = new Scanner(System.in);
+		System.out.print("Enter no.of elements in your array: ");
+		n = s.nextInt();
+		int num[] = new int[n];
+
+		System.out.println("Enter the elements in your array: ");
+		for (int i = 0; i < n; i++) 
+			num[i] = s.nextInt();
+
+		for (int i = 0; i < n; i++) {
+			for (int j=i; j<n; j++) {
+				if (num[i] > num[j]) {
+				temp = num[i];
+				num[i] = num[j];
+				num[j] = temp;
+				}
+			}
+		}
+		System.out.println("New Sorted Array is: ");
+		for (int v:num)
+			System.out.println(v);
+		
 	}
 }
